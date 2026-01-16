@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hwonsong/agent_based_sim/bin/salt-standalone-mpduar-event"
-  "/home/hwonsong/agent_based_sim/bin/salt-standalone-mpduar-event.pdb"
+  "/home/etri33533/work/absim-run3/agent_based_sim/bin/salt-standalone-mpduar-event"
+  "/home/etri33533/work/absim-run3/agent_based_sim/bin/salt-standalone-mpduar-event.pdb"
   "CMakeFiles/salt-standalone-mpduar-event.dir/SaltStandalone_MPDuaR_Event.cpp.o"
 )
 

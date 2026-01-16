@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hwonsong/agent_based_sim/src/. -I/home/hwonsong/agent_based_sim/src/.. -I/home/hwonsong/agent_based_sim/src/../include -I/home/hwonsong/agent_based_sim/src/../lib -I/usr/include/python3.6m
+CXX_INCLUDES = -I/home/etri33533/work/absim-run3/agent_based_sim/src/. -I/home/etri33533/work/absim-run3/agent_based_sim/src/.. -I/home/etri33533/work/absim-run3/agent_based_sim/src/../include -I/home/etri33533/work/absim-run3/agent_based_sim/src/../lib -I/usr/include/python3.6m
 
 CXX_FLAGS =  -std=c++11 -pthread -O3 -DNDEBUG -fPIC -std=gnu++11
 

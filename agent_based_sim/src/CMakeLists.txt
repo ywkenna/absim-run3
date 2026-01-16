@@ -32,7 +32,7 @@ if (Boost_FOUND)
     message(STATUS "Boost_LIBRARY_DIRS: ${Boost_FILESYSTEM_LIBRARY}")
 endif()
 
-find_library(SALTLIB NAMES libsaltstatic.a HINTS /home/hwonsong/agent_based_sim/lib  REQUIRED)
+find_library(SALTLIB NAMES libsaltstatic.a HINTS /home/etri33533/work/absim-run3/agent_based_sim/lib  REQUIRED)
 if(SALTLIB)
 	message(STATUS "Find Library:  ${SALTLIB}")
 else()

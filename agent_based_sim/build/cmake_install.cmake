@@ -1,4 +1,4 @@
-# Install script for directory: /home/hwonsong/agent_based_sim/src
+# Install script for directory: /home/etri33533/work/absim-run3/agent_based_sim/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpylibsaltx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND /usr/bin/python /home/hwonsong/agent_based_sim/src/../tools/build/setup-libsalt.py clean --all install --root=$ENV{DESTDIR}/ --prefix=/usr/local --optimize=1)
+  execute_process(COMMAND /usr/bin/python /home/etri33533/work/absim-run3/agent_based_sim/src/../tools/build/setup-libsalt.py clean --all install --root=$ENV{DESTDIR}/ --prefix=/usr/local --optimize=1)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hwonsong/agent_based_sim/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/etri33533/work/absim-run3/agent_based_sim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
